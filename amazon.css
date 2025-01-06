@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"
+}
+.thor{
+    display: flex;
+    position: relative;
+}
+.in{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 4px;
+}
+.thor img{
+    height: 40px;
+    width: 110px;
+    /* object-fit: cover; */
+}
+.child{
+    display: flex;
+    background-color: #131921   ;
+    color: #fff;
+    justify-content: space-between;
+    /* position: relative; */
+    font-size: 15px;
+    padding: 10px 10px;
+    align-items: center;
+}
+.thor1 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.child input{
+    width: 700px;
+    height: 10px;
+    margin-top: 8px;
+    padding: 20px 0 20px 66px;
+    /* margin-right: 50px; */
+    border-radius: 7px;
+}
+.thor1{
+    display: flex;
+    /* padding: 20px 50px 0 0; */
+}
+.loction1{
+    padding-right: 20px;
+}
+.loction2{
+    padding-right: 20px;
+}
+.loction{
+    padding: 0 20px 0 28px;
+}
+.tam{
+    position: relative;
+}
+.tam1{
+    position: absolute;
+    top: -54px;
+    left: 371px;
+    background-color: rgba(128, 128, 128, 0.389);
+    padding: 8px 10px 8px 15px;
+    border-radius:5px 0px 0px 5px;
+
+
+}
+.searchicon{
+    position: absolute;
+    top: -54px;
+    left: 1027px;
+    background-color: rgba(255, 166, 0, 0.518);
+    padding: 8px 10px 8px 15px;
+    border-radius:0 5px 5px 0;
+}
+.thor1 p{
+    display: flex;
+    padding-left: 7px;
+}
+.loction p{
+    color: lightgray;
+    width: 104%;
+    font-size: 11px;
+    padding-left: 11px;
+}
+.locdot{
+    padding-right: 5px;
+}
+.shop{
+    display: flex;
+}
+.thor2 i{
+font-size: 28px;
+}
+.hulk{
+     background-color:#232f3e ;
+}
+.hulk ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 98%;
+    padding: 10px 0 10px  ;
+}
+.hulk a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff; 
+}
+.hulk li:hover{
+    border:  1px solid #fff;
+    padding: 2px 7px;
+}
+.images{
+    height: 300px;
+    width: 100%;
+}
+.images img{
+ /* height: 196%; */
+ width: 100%;
+ object-fit: cover;
+}
+.layout{
+    background-color: beige;
+    width: 30%;
+    padding: 15px 10px ;
+    margin: 50px 17px 10px 20px ;
+}
+.layout2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.layout2 img{
+    width: 150px;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.text p{
+    font-size: 12px;
+    padding: 10px 0;
+}
+.text1{
+    width: 47%;
+}
+.layout1 h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 0;
+}
+.anc{
+    margin-top: 20px;
+    padding-left: 30px;
+    
+}
+.anc a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.layout20{
+    display: flex;
+}
+.layout50{
+    display: flex;
+    justify-content: space-evenly;
+}
+.layout50 img{
+    padding-bottom: 10px;
+    height: 150px;
+    padding-right: 10px;
+}
+.krishna{
+    background-color: beige;
+    width: 97%;
+    margin: 18px;
+    margin-bottom: 30px;
+    
+    
+}
+.kri{
+    display: flex;
+}
+.kri h1{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+}
+.kri a{
+    text-decoration: none;
+    padding-left: 31px;
+    margin-top: 26px;
+}
+.krishna1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 24px;
+}
+.marvel{
+    background-color: beige;
+    width: 26%;
+    margin: 30px;
+}
+.marvel1 h1{
+    font-size: 20px;
+    padding: 15px 0 20px 30px;
+}
+.marvel2{
+    display: flex;
+}
+.marvel2 h4{
+    padding-left: 20px;
+}
+.marvel3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.banke img{
+    padding-left: 95px;
+}
+.marvel1 p{
+    padding-left: 30px;
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+.marvel2 h3, h4{
+    /* padding-left: 30px; */
+    padding-bottom: 10px;
+
+}
+.marvel4{
+    padding-bottom: 20px;
+}
+.marvel4 a{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.marvelking{
+    display: flex;
+}
+.kitchen img{
+    width: 96%;
+    padding-left: 20px;
+    height: 285px;
+    object-fit: cover;
+}
+.bike{
+    display: flex;
+}
+.bike1{
+    background-color: beige;
+    margin: 20px;
+}
+.bike2 h1{
+    font-size: 17px;
+    text-align: center;
+    padding: 21px 0;
+}
+.bike3 img{
+    width: 96%;
+    padding-left: 20px;
+    height: 285px;
+    object-fit: cover;
+}
+.bike4 p{
+width: 90%;
+padding: 7px 0 8px 30px;
+}
+.skincare1{
+    display: flex   ;
+}
+.skincare2{
+    display: flex;
+    background-color: beige;
+    width: 97%;
+    margin-left: 20px;
+}
+.skincare3{
+    border: solid rgba(0, 0, 0, 0.271);
+    width: 15%;
+    height: 309px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.skincare3 p{
+    font-size: 15px;
+}
+.skincare3 h4{
+    padding-left: 1px;
+    padding-bottom: 5px;
+}
+.skincare3 img{
+    height: 186px;
+    width: 88%;
+}
+.skincare1{
+    background-color: beige;
+    width: 97%;
+    margin-left: 20px;
+}
+.skincare1 h2{
+    font-size: 20px;
+    padding: 15px 0 10px 16px;
+}
+.skincare1 a{
+    text-decoration: none;
+    padding: 17px 0 0 14px;
+}
+.vedio{
+    margin-left: 16px;
+}
+.colour{
+    display: flex;
+}
+.krishna12{
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.skincare30{
+    /* border: solid rgba(0, 0, 0, 0.271); */
+    width: 15%;
+    height: 309px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.skin22{
+    display: flex;
+    justify-content: space-between;
+}
+.skin50{
+    background-color: beige;
+    width: 97%;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 450px;
+}
+.skincare30 a{
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.room20{
+    width: 90%;
+}
+.skincare30 i{
+    color: rgb(199, 199, 54);
+
+}
+.room30{
+    font-size: 12px;
+}
+.room31{
+    padding-left: 1px;
+}
+.skin50{
+    display: flex;
+}
+.skin22{
+    background-color: beige;
+    width: 97%;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.skin22 h3{
+    padding: 13px 0 20px 20px;
+
+}
+.skin22 h5{
+    padding: 15px 120px 0 0;
+}
+.riti{
+    position: relative;
+}
+.riti a{
+    position: absolute;
+    right: 40px;
+    bottom: 475px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.see{
+    background-color: beige;
+    margin-top: 30px;
+    width: 97%;
+    margin-left: 20px;
+    text-align: center;
+    height: 150px;
+    /* margin-bottom: 20px; */
+}
+.see1 {
+    display: flex;
+    justify-content: center;
+}
+.see h1{
+    padding: 20px;
+    font-size: 23px;
+    
+}
+button{
+    padding: 4px 0 ;
+    border-radius: 20px;
+    background-color: orange;
+    width: 20%;
+    border: solid orange;
+    margin-bottom: 10px;
+}
+.see1 a{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.lap{
+    background-color: #37475a;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.lap1{
+    background-color: #232f3e;
+    color: #fff;
+    height: 300px;
+    margin: 55px;
+}
+.lap1 p{
+    padding-bottom: 10px;
+}
+.lap2{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.lap2 a{
+    text-decoration: none;
+     color: #fff;
+}
+.lap3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+
+}
+.lap5{
+    background-color: #232f3e;
+    display: flex;
+}
+.lap5 img{
+    height: 40px;
+    width: 110px;
+}
+.lap6{
+    background-color: #131a22;
+    color: #fff;
+}
+.amazonlast{
+    height: 100px;
+    background-color: #232f3e;
+}
+.one1{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.omg{
+    width: 40%;
+    height: 100px;
+    padding: 31.5px 0 0 0;
+}
+.omg img{
+    width: 80px ;
+    height: 40px;
+}
+.omg1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.omg3{
+    display: flex;
+    padding: 0 8px;
+    color: white;
+    border: 1px solid;
+    padding: 8px 30px;
+    margin-right: 11px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 12px;
+}
+.omg3 img{
+    width: 30px ;
+    height: 20px;
+}
+.omg3 p{
+    padding: 0 0  0 4px;
+}
+.final{
+    background-color: #131a22;
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 12px;
+    padding: 5px 0;
+}
+.final a{
+    color: white;
+    text-decoration: none;
+}
+.final1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+font-size: 12px;
+}
+.final2 a{
+    color: white;
+    text-decoration: none;
+}
+.final2 a:hover{
+    text-decoration: underline;
+}
+.finalchild{
+padding: 10px 0;
+}
+.bottom{
+    padding: 10px 0 0 0;
+    font-weight: 250;
+    text-align: center;
+    margin-top: 25px;
+}
+.lap1 a:hover{
+    text-decoration: underline;
+    
+}
